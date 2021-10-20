@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 242, 224);
+}
+
+#container {
+    width: 700px;
+    min-height: 700px;
+}
+
+/* NAV */
+#nav {
+    height: 50px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+#network {
+    color: white;
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+/* YOUR FEED */
+
+h1 {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+/* SUB CONTAINER  */
+
+#subContainer {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* COL 1 */
+
+#col1 {
+    min-height: 100px;
+    width: 225px;
+    text-align: center;
+}
+
+#avatar {
+    height: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#c1link {
+    font-size: 22px;
+}
+
+#h1name {
+    margin-top: 20px;
+}
+
+#col1Content {
+    min-height: 300px;
+    outline: 3px solid black;
+    padding: 10px;
+}
+
+/* COL 2 */
+
+#col2 {
+    min-height: 150px;
+    width: 450px;
+    
+}
+
+#col2Content {
+    min-height: 160px;
+    outline: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.col1Top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.col1TopLeft {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.likes {
+    font-size: 20px;
+}
+
+.likeBtn {
+    background-color: rgb(255, 213, 106);
+    width: 70px;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+}
+
+.col1Bot {
+    font-size: 18px;
+    padding: 0px 30px;
+}

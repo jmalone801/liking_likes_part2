@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- NAV -->
+        <div id="nav">
+            <h1 id="network">Network</h1>
+        </div>
+        <!-- Your Feed -->
+        <h1>Your Feed</h1>
+        <!-- SUB CONTAINER -->
+        <div id="subContainer">
+            <!-- COL 1 -->
+            <div id="col1">
+                <div id="col1Content">
+                    <img id="avatar" src="Assets/user-circle.png" alt="Avatar"><br>
+                    <a id="c1link" href="">Add an avatar</a>
+                    <h1 id="h1name">James Malone</h1>
+                </div>
+            </div>
+            <!-- COL 2 -->
+            <div id="col2">
+                <div id="col2Content">
+                    <div class="col1Top">
+                        <h2>Neil M</h2>
+                        <div class="col1TopLeft">
+                            <p class="likes"><span id="likeAmount1">9</span> like(s)</p>
+                            <button class="likeBtn" onclick="like1()">Like</button>
+                        </div>
+                    </div>
+                    <p class="col1Bot">I just set up this new Discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+                <div id="col2Content">
+                    <div class="col1Top">
+                        <h2>Nichole K</h2>
+                        <div class="col1TopLeft">
+                            <p class="likes"><span id="likeAmount2">12</span> like(s)</p>
+                            <button class="likeBtn" onclick="like2()">Like</button>
+                        </div>
+                    </div>
+                    <p class="col1Bot">Just finshed my <a href="">next comic,</a> check it out.</p>
+                </div>
+                <div id="col2Content">
+                    <div class="col1Top">
+                        <h2>Jim R</h2>
+                        <div class="col1TopLeft">
+                            <p class="likes"><span id="likeAmount3">9</span> like(s)</p>
+                            <button class="likeBtn" onclick="like3()">Like</button>
+                        </div>
+                    </div>
+                    <p class="col1Bot">I can't stop listening to the <a href="">new album.</a> Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
